@@ -1,28 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700|Work+Sans:200,300,400,500,600&display=swap"
       rel="stylesheet"
     />
-    <title>React App</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+
+    <title>Best&amp;Lloyd</title>
   </head>
   <body>
+    <!-- SVG Files -->
+    <div class="icon-page"></div>
+
+    <!-- Header
+------------------------------------------------------------------------------->
+    <header class="header">
+      <div class="header__top">
+        <div class="header-wrap">
+          <div class="header__links">
+            <button
+              class="header__link btn--hide"
+              onclick="document.getElementById('modalLogin').style.display='block'"
+            >
+              Clients
+            </button>
+            <a
+              class="header__link header--register view--fullscreen"
+              href="register.html"
+              >Register</a
+            >
+          </div>
+          <div class="header__logo">
+            <a href="/">
+              <img
+                id="logoShrink"
+                src="assets/svg/bestandlloyd.png"
+                alt="Best&Lloyd Logo"
+              />
+            </a>
+          </div>
+          <div class="header__links ">
+            <a
+              class="header__link header--findus view--fullscreen"
+              href="findus.html"
+              >Find Us</a
+            >
+            <button
+              class="header__link btn--hide"
+              onclick="document.getElementById('modalSearch').style.display='block'"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar
+      ------------------------------------------------------------------------------->
+      <div class="navbar">
+        <div class="navbar__left" style="opacity: 0;"></div>
+        <nav class="menu">
+          <div class="menu__burger">
+            <input type="checkbox" class="toggler" />
+            <div class="burger"><div></div></div>
+          </div>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Products</a>
+              <ul class="menu__sub-list">
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="product-page.html">New</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="all.html">All</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="table.html">Table</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="wall.html">Wall</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="floor.html">Floor</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="pendant.html">Pendant</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="outdoor.html">Outdoor</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="tablesmirrors.html"
+                    >Tables &amp; Mirrors</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Discover</a>
+              <ul class="menu__sub-list">
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="heritage.html">Heritage</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="ethos.html">Ethos</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="designers.html">Designers</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="info.html">Info</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Custom</a>
+              <ul class="menu__sub-list">
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="custom.html">Custom</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="custom.html#pg-finishes"
+                    >Finishes</a
+                  >
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="shades.html">Shades</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="schemeboard.html"
+                    >Schemeboard</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Latest</a>
+              <ul class="menu__sub-list">
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="news.html">Latest</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="client-area.html">Clients</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="brochures.html">Brochure</a>
+                </li>
+                <li class="menu__sub-item">
+                  <a class="menu__sub-link" href="mailing.html">Mailing List</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="findus.html#showrooms">Showrooms</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="navbar__right">
+          <svg
+            class="icon"
+            onclick="document.getElementById('modalSearch').style.display='block'"
+          >
+            <use href="#icon-search" xlink:href="#icon-search"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Search/Login
+   ------------------------------------------------------------------------------->
+      <div id="modalLogin" class="modal-bg">
+        <div class="modal--login">
+          <div
+            class="modal__close"
+            onclick="document.getElementById('modalLogin').style.display='none'"
+          >
+            <svg class="icon icon--gold">
+              <use href="#icon-close" xlink:href="#icon-close"></use>
+            </svg>
+          </div>
+          <form class="form form--dark" action="*">
+            <label class="form__label" for="uname">Username</label>
+            <input
+              class="form__input"
+              type="text"
+              placeholder="Enter Username"
+              name="uname"
+              required
+            />
+            <label class="form__label" for="psw">Password</label>
+            <input
+              class="form__input"
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+            <button class="btn btn--form" type="submit">Login</button>
+            <label class="form__checkbox">
+              <input
+                type="checkbox"
+                style="margin-top: 1.5rem;"
+                checked="checked"
+                name="remember"
+              />
+              <p class="form__checkbox__txt">Remember me</p>
+            </label>
+          </form>
+        </div>
+      </div>
+      <div id="modalSearch" class="modal-bg">
+        <div class="modal--search">
+          <div
+            class="modal__close"
+            onclick="document.getElementById('modalSearch').style.display='none'"
+            title="Close Modal"
+          >
+            <svg class="icon icon--gold">
+              <use href="#icon-close" xlink:href="#icon-close"></use>
+            </svg>
+          </div>
+          <form class="form form--dark" action="*">
+            <label class="form__label" for="psw">Search</label>
+            <div class="form__searchbox">
+              <input
+                class="form__input form__input--inline"
+                type="text"
+                placeholder="Search"
+                name="search"
+              />
+              <button class="btn btn--form" type="submit">
+                <svg class="icon">
+                  <use href="#icon-search" xlink:href="#icon-search"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
 </html>
+2

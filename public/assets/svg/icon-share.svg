@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #07070d;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>icon-share</title>
+  <g id="icon-share">
+    <g>
+      <ellipse class="cls-1" cx="7.91" cy="6.54" rx="1.88" ry="1.91" transform="translate(1.23 14.34) rotate(-89)"/>
+      <ellipse class="cls-1" cx="17.09" cy="11.9" rx="1.88" ry="1.91" transform="matrix(0.02, -1, 1, 0.02, 4.9, 28.77)"/>
+      <ellipse class="cls-1" cx="7.91" cy="17.19" rx="1.88" ry="1.91" transform="translate(-9.41 24.8) rotate(-89)"/>
+      <path id="Path_9258" data-name="Path 9258" class="cls-2" d="M9.82,16.07,15.18,13"/>
+      <path id="Path_9259" data-name="Path 9259" class="cls-3" d="M9.82,7.66l5.36,3.06"/>
+    </g>
+  </g>
+</svg>

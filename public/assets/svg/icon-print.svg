@@ -1,0 +1,17 @@
+<svg id="icon-print" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #07070d;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>icon-print</title>
+  <g>
+    <path id="Path_9253" data-name="Path 9253" class="cls-1" d="M7.24,12.55V19h9.52V12.55Z"/>
+    <path id="Path_9254" data-name="Path 9254" class="cls-1" d="M16.76,8.26V4H7.24V8.26"/>
+    <path id="Path_9255" data-name="Path 9255" class="cls-1" d="M7.24,15.76H3V8.26H21v7.5H16.76"/>
+  </g>
+</svg>

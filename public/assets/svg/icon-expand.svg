@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #07070d;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <title>icon-expand</title>
+  <g id="icon-expand">
+    <g>
+      <path id="Path_10455" data-name="Path 10455" class="cls-1" d="M9.34,4.38H3.43V10.3"/>
+      <path id="Path_10455-2" data-name="Path 10455" class="cls-1" d="M3.43,14.38V20.3H9.34"/>
+      <path id="Path_10455-3" data-name="Path 10455" class="cls-1" d="M14.27,20.3h5.92V14.38"/>
+      <path id="Path_10455-4" data-name="Path 10455" class="cls-1" d="M20.19,10.3V4.38H14.27"/>
+      <line class="cls-1" x1="8.81" y1="9.77" x2="3.43" y2="4.38"/>
+      <line class="cls-1" x1="3.43" y1="20.3" x2="8.81" y2="14.91"/>
+      <line class="cls-1" x1="14.8" y1="14.91" x2="20.19" y2="20.3"/>
+      <line class="cls-1" x1="20.19" y1="4.38" x2="14.8" y2="9.77"/>
+    </g>
+  </g>
+</svg>

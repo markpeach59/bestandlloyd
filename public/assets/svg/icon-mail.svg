@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #07070d;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>icon-mail</title>
+  <g id="icon-mail">
+    <g>
+      <rect id="Rectangle_3985" data-name="Rectangle 3985" class="cls-1" x="3.01" y="5.98" width="18" height="12.3"/>
+      <path id="Path_9251" data-name="Path 9251" class="cls-1" d="M3,6l9,8.36L21,6"/>
+    </g>
+  </g>
+</svg>

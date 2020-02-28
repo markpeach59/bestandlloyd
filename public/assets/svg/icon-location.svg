@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #07070d;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>icon-location</title>
+  <g id="icon-location">
+    <g>
+      <path id="Path_10454" data-name="Path 10454" class="cls-1" d="M18.68,7.58c0,5.07-6.84,13.44-6.84,13.44S5,12.66,5,7.58C5,4.51,8.06,2,11.84,2S18.68,4.51,18.68,7.58Z"/>
+      <ellipse class="cls-2" cx="11.84" cy="8.1" rx="2.64" ry="2.68" transform="translate(3.53 19.8) rotate(-89)"/>
+    </g>
+  </g>
+</svg>

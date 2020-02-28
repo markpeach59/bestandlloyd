@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #07070d;
+      }
+    </style>
+  </defs>
+  <title>icon-heart</title>
+  <g id="icon-heart">
+    <path id="ios-heart" class="cls-1" d="M16,5.12h0A4.09,4.09,0,0,0,12.51,7,4.08,4.08,0,0,0,9.09,5.12h0A4.08,4.08,0,0,0,5,9.2C5,14,10.35,18,12.51,19.56,14.68,18,20,14,20,9.2A4.08,4.08,0,0,0,16,5.12Z"/>
+  </g>
+</svg>

@@ -1,0 +1,142 @@
+/* reset
+--------------------*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a,
+address, em, img, small, b, u, i, dl, dt, dd, ol, ul, li,
+article, aside, figure, figcaption, footer, header, menu, nav, section {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   vertical-align: baseline;}
+ol, ul {list-style: none;}
+*, *:before, *:after {box-sizing: border-box;}
+address {font-style: normal;}
+figcaption {width: 100%;}
+a {text-decoration: none; color: rgb(13, 13, 13);}
+
+
+/* Variables
+--------------------*/
+:root {
+   /* Colour - clr  */
+   --clr-blue: #0D0D17;
+   --clr-darkblue: rgba(6, 6, 12, 1);
+   --clr-gold: rgb(213, 204, 174);
+
+   /* Shade - sh */
+   --sh-offblack: rgb(7, 7, 7);
+   --sh-darkgrey: rgb(30, 30, 30);
+   /* --sh-darkgrey: red; */
+   --sh-grey: rgb(64, 64, 64);
+   --sh-lightgrey: rgb(180, 180, 180);
+   --sh-offwhite: rgb(243, 243, 243);
+
+   /* Boxshadow */
+   /* --sh-boxshadow: 0px 0px 2px 2px rgba(0, 0, 0, .1);
+   --sh-boxshadow-2:  0px 4px 2px 0px rgba(0, 0, 0, .1);
+   --bk-gradient: linear-gradient(to left, rgba(0,0,0,.03) 5%, rgba(0,0,0,0) 20%) no-repeat;
+   --bk-gradient:  linear-gradient(to right, rgba(0,0,0,.03) 5%, rgba(0,0,0,0.01) 20%) no-repeat; */
+
+
+   /* TYPOGRAPHY
+   --------------------*/
+   --ff-pri: 'Frank Ruhl Libre', serif;
+   --ff-sec: 'work sans', sans-serif;
+   --ff-ter: OptimaLTStd, sans-serif;
+   --ff-optima: 'muli', sans-serif;
+
+   /* Font Size Base+Scale Value  */
+   --fs-base-size: .93rem;
+   --fs-scale-ratio: 1.15;
+
+   /* Font Size Scale */
+   --fs-xs: calc((calc(1rem + .1vw) / var(--fs-scale-ratio)) / var(--fs-scale-ratio));
+   --fs-sm: calc(var(--fs-xs) * var(--fs-scale-ratio));
+   --fs-md: calc(var(--fs-sm) * var(--fs-scale-ratio) * var(--fs-scale-ratio));
+   --fs-lg: calc(var(--fs-md) * var(--fs-scale-ratio));
+   --fs-xl: calc(var(--fs-lg) * var(--fs-scale-ratio));
+   --fs-xxl: calc(var(--fs-xl) * var(--fs-scale-ratio));
+   --fs-xxxl: calc(var(--fs-xxl) * var(--fs-scale-ratio));
+}
+
+
+/* Headings
+--------------------*/
+.page__heading {
+   font-family: var(--ff-sec);
+   font-size: 2.25rem;
+   line-height: 3rem;
+   font-weight: 200;
+   letter-spacing: .2rem;
+   text-transform: uppercase;
+   text-align: center;
+   color: var(--sh-offblack);
+   margin-bottom: 2rem;
+}
+
+.page__sub-heading {
+   font-family: var(--ff-sec);
+   font-size: 1.75rem;
+   line-height: 2rem;
+   font-weight: 200;
+   letter-spacing: .2rem;
+   text-transform: uppercase;
+   text-align: center;
+   color: var(--sh-offblack);
+   margin-bottom: 1rem;
+}
+
+p {
+   font-size: var(--fs-base-size);
+   font-family: var(--ff-sec);
+   text-align: center;
+   letter-spacing: .02em;
+   line-height: 1.75rem;
+   font-weight: 300;
+   margin-bottom: 1em;
+   color: var(--sh-grey);
+
+}
+
+   /* p:last-of-type {
+      margin-bottom: 0rem;
+   } */
+
+.p-2col {
+   columns: 22rem 2;
+   column-gap: 3rem;
+}
+
+.p-max {
+   max-width: 65ch;
+   margin: 0 auto;
+}
+
+.p-sm {
+   font-size: .8rem;
+   font-family: var(--ff-sec);
+   line-height: 1.5rem;
+}
+
+.p-xs, small {
+   font-size: .7rem;
+   font-family: var(--ff-sec);
+   line-height: 1.5rem;
+   font-weight: 300;
+}
+
+#viewMoreTxt {
+   display: none;
+}
+
+.nightly {
+   color: var(--clr-gold);
+   background-color: var(--clr-blue);
+}
+
+a {
+   color: var(--sh-darkgrey);
+}
+
+a:hover {
+   color: var(--sh-offblack);
+}
